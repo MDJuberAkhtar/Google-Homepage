@@ -66,6 +66,7 @@ input:focus{
 }
 #search {
     grid-area: search;
+    padding-left: 25px;
     height: 30px;
     width: 80%;
     align-self: center;
@@ -113,3 +114,12 @@ input:focus{
     grid-area: google-text;
     justify-self: center;
 }
+
+@media screen and (max-width: 786px) {
+    #random-search-btn{
+        display: none;
+    }
+    #google-search-btn{
+
+    }
+  }
